@@ -5,9 +5,9 @@ window.addEventListener("load", () => {
 
   btnSubmit.addEventListener("click", () => {
     if (checkEmail(email)) {
-      email.parentNode.classList.remove("invalid");
+      email.classList.remove("invalid");
     } else {
-      email.parentNode.classList.add("invalid");
+      email.classList.add("invalid");
     }
   });
 
@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
       btnSubmit.click();
     }
     if (e.key === "Backspace") {
-      email.parentNode.classList.remove("invalid");
+      email.classList.remove("invalid");
     }
   });
 

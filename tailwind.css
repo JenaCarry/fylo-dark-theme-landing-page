@@ -40,11 +40,11 @@
         @apply bg-testimonials p-6 rounded-md shadow-[0_4px_10px_10px_rgba(0,0,0,0.05)] grid gap-5
     }
 
-    .invalid #email {
+    .invalid {
         @apply ring-1 ring-error
     }
 
-    .invalid p {
+    .invalid~p {
         @apply block
     }
 
@@ -55,4 +55,20 @@
     .circle {
         @apply w-9 h-9 border rounded-full grid place-content-center hover:text-btn-100 hover:border-btn-100 transition-all duration-150 ease-in-out
     }
+}
+
+::-webkit-scrollbar {
+    @apply w-3
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-900
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-100 border border-solid border-slate-900 rounded-full
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-200
 }
