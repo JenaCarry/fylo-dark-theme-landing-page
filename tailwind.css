@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    header a {
+        @apply hover:font-bold hover:underline transition-all duration-150 ease-in-out
+    }
+
+    h2,
+    h3,
+    header a,
+    button {
+        @apply font-raleway
+    }
+    
+    h2,
+    h3,
+    h4,
+    button {
+        @apply font-bold
+    }
+    
+    h3 {
+        @apply text-lg
+    }
+
+    .btn {
+        @apply bg-gradient py-4 rounded-full hover:bg-gradient-to-br hover:from-btn-100 hover:to-btn-100 shadow-md
+    }
+
+    .profile {
+        @apply w-10 h-10 rounded-full
+    }
+
+    .testimonials {
+        @apply bg-testimonials p-6 rounded-md shadow-[0_4px_10px_10px_rgba(0,0,0,0.05)] grid gap-5
+    }
+
+    .invalid #email {
+        @apply ring-1 ring-error
+    }
+
+    .invalid p {
+        @apply block
+    }
+
+    footer a {
+        @apply hover:font-bold transition-all duration-150 ease-in-out
+    }
+
+    .circle {
+        @apply w-9 h-9 border rounded-full grid place-content-center hover:text-btn-100 hover:border-btn-100 transition-all duration-150 ease-in-out
+    }
+}
