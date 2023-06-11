@@ -37,7 +37,7 @@
     }
 
     .testimonials {
-        @apply bg-testimonials p-6 rounded-md shadow-[0_4px_10px_10px_rgba(0,0,0,0.05)] grid gap-5
+        @apply max-w-[342px] bg-testimonials p-6 rounded-md shadow-[0_2px_6px_6px_rgba(0,0,0,0.03)] grid gap-5
     }
 
     .invalid {
@@ -54,6 +54,38 @@
 
     .circle {
         @apply w-9 h-9 border rounded-full grid place-content-center hover:text-btn-100 hover:border-btn-100 transition-all duration-150 ease-in-out
+    }
+
+    .initDefault {
+        @apply opacity-0 transition-all duration-500 ease-linear
+    }
+
+    .initDefaultOff {
+        @apply opacity-100
+    }
+
+    .initBottom {
+        @apply opacity-0 translate-y-2.5 transition-all duration-300 ease-linear;
+    }
+
+    .initBottomOff {
+        @apply translate-y-0 opacity-100
+    }
+
+    .initTop {
+        @apply opacity-0 -translate-y-2.5 transition-all duration-300 ease-linear
+    }
+
+    .initTopOff {
+        @apply translate-y-0 opacity-100
+    }
+
+    .initSide {
+        @apply -translate-x-2.5 opacity-0 transition-all duration-300 delay-300 ease-linear
+    }
+
+    .initSideOff {
+        @apply translate-x-0 opacity-100
     }
 }
 
