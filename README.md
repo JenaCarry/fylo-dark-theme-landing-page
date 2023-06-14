@@ -13,11 +13,11 @@
   <br>
 
   <div align="center">
-    <a href="">View Demo</a>
+    <a href="https://jenacarry.github.io/fylo-dark-theme-landing-page/">View Demo</a>
     -
-    <a href="">Report Bug</a>
+    <a href="https://github.com/JenaCarry/fylo-dark-theme-landing-page/issues">Report Bug</a>
     -
-    <a href="">Request Feature</a>
+    <a href="https://github.com/JenaCarry/fylo-dark-theme-landing-page/pulls">Request Feature</a>
   </div>
 
 </div>
@@ -35,7 +35,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 <h2>Links</h2>
 
 - Solution URL: [Fylo landing page with dark theme and features grid | Frontend Mentor]()
-- Live Site URL: []()
+- Live Site URL: [https://jenacarry.github.io/fylo-dark-theme-landing-page/](https://jenacarry.github.io/fylo-dark-theme-landing-page/)
 
 <br>
 
