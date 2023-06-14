@@ -51,7 +51,7 @@
     }
 
     .profile {
-        @apply w-10 h-10 rounded-full
+        @apply w-9 h-9 rounded-full
     }
 
     .testimonials {
