@@ -5,7 +5,7 @@
   <h2>Fylo landing page with dark theme and features grid</h2>
 
   <h3>
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-4oaC03c8my">
       <strong>Frontend Mentor</strong>
     </a>
   </h3>
@@ -34,7 +34,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 <h2>Links</h2>
 
-- Solution URL: [Fylo landing page with dark theme and features grid | Frontend Mentor]()
+- Solution URL: [Fylo landing page with dark theme and features grid | Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-4oaC03c8my)
 - Live Site URL: [https://jenacarry.github.io/fylo-dark-theme-landing-page/](https://jenacarry.github.io/fylo-dark-theme-landing-page/)
 
 <br>
